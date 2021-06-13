@@ -1,0 +1,59 @@
+body {
+    display: grid;
+    margin: 0;
+    width: 100%;
+    min-height: 100vh;
+    background-image: linear-gradient(
+    180deg,
+    #16c007 5%,
+    #0d057c 20%,
+    #0d057c 60%,
+    #db6f0a 95%
+    );
+}
+
+main {
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        position: relative;
+}
+
+main > div button {
+        cursor: pointer;
+        border-radius: 8px;
+        background-color: #8f80e7;
+        color: white;
+        font-size: 12px;
+        font-weight: 700;
+        padding: 9px 23px;
+        border: none; 
+        margin-left: 400px;
+ }
+
+main > div img {
+        width: 200px;
+        height: 200px;
+}
+
+.borda {
+        cursor:not-allowed;
+	margin: 20px;
+        padding: 10px;
+	background: rgb(44, 2, 141);
+        box-shadow:  8px 32px 0 rgba(0, 0, 7, 0.37);
+        border-radius: 20px;
+	font-size: 1.0em;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        color:white;
+}
+
+.dividirColunas {
+	display: grid;    
+}
+
+.dividirColunas2 {
+	grid-template-columns: 500px 500px ;
+}
